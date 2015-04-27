@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>山东锣响汽车制造</title>
+<meta name="description" content="" />
+<meta name="keywords" content="锣响 锣响挂车 锣响汽车 山东蒙阴挂车厂 临沂蒙阴挂车 锣响挂车厂 响锣挂车厂 山东挂车厂 仓栅式半挂车" />
+<link href="/uploads/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/uploads/templets/luoxiang/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/uploads/templets/luoxiang/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/uploads/templets/luoxiang/css/kefu_style.css" />
+<link rel="icon" href="/uploads/templets/luoxiang/images/logo.png" type="image/x-icon" />
+<script language="javascript" type="text/javascript" src="/uploads/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript" src="/uploads/images/js/j.js" ></script>
+<link href="/uploads/templets/luoxiang/css/jquery.onebyone-min.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="/uploads/templets/js/pic_scroll.js"></script>
+<script type="text/javascript" src="/uploads/templets/luoxiang/js/jquery.js"></script>
+<script type="text/javascript" src="/uploads/templets/luoxiang/js/lrtk.js"></script>
+<script type="text/javascript" src="/uploads/templets/luoxiang/js/jQuery.blockUI.js"></script>
+<script type="text/javascript" src="/uploads/templets/luoxiang/js/jquery.SuperSlide.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin(){
+	  var taget_obj = document.getElementById('_ajax_feedback');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/uploads/member/ajax_feedback.php");
+	  DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/uploads/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/uploads/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/uploads/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="articleview">
+<div id="head">
+			<div id="logo">
+				<img src="/uploads/templets/luoxiang/images/logo2.png" alt="logo" />
+			</div>
+			<div id="he_info">
+				<p style="margin:0px 0px 5px 0px;"><a href="#">设为首页</a>|<a href="#">收藏页面</a></p>
+				<form action="#" name="search">
+					<table border="0" align="center" cellpadding="0" cellspacing="0" class="tab_search">
+  						<tr>
+						<td>
+							<input type="text" name="q" title="Search" class="searchinput" id="searchinput" onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='- Search Products -';" onfocus="if(this.value=='- Search Products -')value='';" value="- Search Products -" size="10"/>
+						</td>
+						<td>
+							<input type="image" width="21" height="17" class="searchaction" onclick="if(document.forms['search'].searchinput.value=='- Search Products -')document.forms['search'].searchinput.value='';" alt="Search" src="/uploads/templets/luoxiang/images/magglass.gif" border="0" hspace="2"/>
+						</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<div id="menu">
+				<div class="wraper">
+    				<div class="nav">
+        			<ul>
+            			<li class="nav-item"><a href='/uploads'>网站首页</a></li>
+            			<li class="nav-item"><a href='/uploads#about'>关于我们</a></li>
+            			<li class="nav-item">  <a href="/uploads/a/xinwenzixun/">新闻资讯</a></li> 
+						<li class="nav-item">  <a href="/uploads/a/chanpinzhanshi/">产品展示</a></li> 
+						<li class="nav-item">  <a href="/uploads/a/chejianzhanshi/">工艺展示</a></li> 
+						<li class="nav-item">  <a href="/uploads/a/lianxiwomen/">联系我们</a></li> 
+       				 </ul>
+      				  <!--移动的滑动-->
+      				  <div class="move-bg"></div>
+      				  <!--移动的滑动 end-->
+  		 			 </div>
+				</div>
+			</div>
+		<div class="header" style="background:url(/uploads/templets/luoxiang/images/header/header43.jpg);width:100%;">
+	<div id="onebyone_slider">
+	
+		<div class="oneByOne_item">
+			<span class="ob1_title"> 山东锣响汽车制造有限公司</span>
+			<span class="ob1_description">依靠自身优势和雄厚的实力，发挥良好的品牌效应坚持“以管理和技术的不断进步为顾客提供满意产品”的质量方针竭力为国内外新老客户提供更优质的产品和服务。</span>
+			<span class="ob1_button"><a href="" class="default_button">查看详情</a></span>
+			<img src="/uploads/templets/luoxiang/images/header/js1.png" class="ob1_img_device1" alt="漫画原创时间日期Jquery插件" />
+		</div>
+		
+		<div class="oneByOne_item">
+			<span class="ob1_title">锁杆隐藏式半挂车</span>
+			<span class="ob1_description">国内首创专利设计将锁杆隐藏在栏板边梁内部，从而节省出10厘米的占用空间，符合了国家标准，不超宽的同时，增加了10cm的内尺寸，使挂车装载灵活性更大了。</span>
+			<span class="ob1_button"><a href="" class="default_button">查看详情</a></span>
+			<img src="/uploads/templets/luoxiang/images/header/js2.png" class="ob1_img_device1" alt="jcDate原创时间Jquery插件" />
+		</div>
+		
+		<div class="oneByOne_item">
+			<span class="ob1_title">为您打造不用修的半挂车</span>
+			<span class="ob1_description">锣响挂车致力于为您提供更经济、更安全、更高效的轻量化赚钱利器。<br />全国免费客服电话：400-9675-077</span>
+			<span class="ob1_button"><a href="" class="default_button">查看详情</a></span>
+			<img src="/uploads/templets/luoxiang/images/header/js3.png" class="ob1_img_device1" alt="漫画原创弹出内容提示Jquery插件" />
+		</div>
+		
+		<div class="oneByOne_item">
+			<span class="ob1_title">选择锣响挂车的理由</span>
+			<span class="ob1_description">技术领先，先进设备，安全性强。使用性高。<br />车身轻，载货多，利润更加丰厚。</span>
+			<span class="ob1_button"><a href="" class="default_button">查看详情</a></span>
+			<img src="/uploads/templets/luoxiang/images/header/js4.png" class="ob1_img_device1" alt="BubbleTips气泡提示Jquery插件" />
+		</div>
+		
+	</div>
+</div>
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="pleft">
+
+ <!-- /place -->
+ <div class="viewbox">
+  <div class="title">
+   <h2>斯蒂芬斯蒂芬森大幅度释放</h2>
+  </div>
+  <!-- /title -->
+  <div class="info"> <small>时间:</small>2015-04-20 12:12<small>来源:</small>未知 <small>作者:</small>admin <small>点击:</small>
+   <script src="/uploads/plus/count.php?view=yes&aid=13&mid=1" type='text/javascript' language="javascript"></script>
+   次</div>
+  <!-- /info -->
+  
+  <div class="intro">福冈黄蜂和发掘很简单</div>
+  
+  <div class="content">
+   <table width='100%'>
+    <tr>
+     <td>
+      福冈黄蜂和发掘很简单
+      
+      (责任编辑：admin)</td>
+    </tr>
+   </table>
+  </div>
+  <!-- /content -->
+  <div class="dede_pages">
+   <ul class="pagelist">
+    
+   </ul>
+  </div>
+  <!-- /pages -->
+  <!-- //顶踩 -->
+  <div class="newdigg" id="newdigg">
+   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',13)">
+    <div class="digg_act">顶一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',13)">
+    <div class="digg_act">踩一下</div>
+    <div class="digg_num">(0)</div>
+    <div class="digg_percent">
+     <div class="digg_percent_bar"><span style="width:0%"></span></div>
+     <div class="digg_percent_num">0%</div>
+    </div>
+   </div>
+  </div>
+  <script language="javascript" type="text/javascript">getDigg(13);</script>
+  <!-- //顶踩部份的源码结束 -->
+  <!-- //分享代码开始 -->
+  
+  <!-- //分享代码结束 -->
+  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
+  <div class="handle">
+   <div class="context">
+    <ul>
+     <li>上一篇：<a href='/uploads/a/xinwenzixun/2015/0420/12.html'>啊大哥风格的复合时尚风格还是</a> </li>
+     <li>下一篇：没有了 </li>
+    </ul>
+   </div>
+   <!-- /context -->
+   <div class="actbox">
+    <ul>
+     <li id="act-fav"><a href="/uploads/plus/stow.php?aid=13" target="_blank">收藏</a></li>
+     <li id="act-err"><a href="/uploads/plus/erraddsave.php?aid=13&title=斯蒂芬斯蒂芬森大幅度释放" target="_blank">挑错</a></li>
+     <li id="act-pus"><a href="/uploads/plus/recommend.php?aid=13" target="_blank">推荐</a></li>
+     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+    </ul>
+   </div>
+   <!-- /actbox -->
+  </div>
+  <!-- /handle -->
+ </div>
+ <!-- /viewbox -->
+ <!-- //AJAX评论区 -->
+ 
+ </div>
+<!-- //左边内容结束 -->
+<!-- //右边内容开始 -->
+<div class="pright"> 
+ <div class="pright">
+  <div>
+   <dl class="tbox">
+    <dt><strong>栏目列表</strong></dt>
+    <dd>
+     <ul class="d6">
+      
+      <li><a href='/uploads/a/xinwenzixun/gongsixinwen/'>公司新闻</a></li>
+      
+      <li><a href='/uploads/a/xinwenzixun/qichezhishi/'>汽车知识</a></li>
+      
+      <li><a href='/uploads/a/xinwenzixun/xingyezixun/'>行业资讯</a></li>
+      
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <div class="commend mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>推荐内容</strong></dt>
+    <dd class='light'>
+     <ul class="d4">
+      <li><a href="/uploads/a/xinwenzixun/2015/0418/4.html">热烈祝贺</a>
+       <p>啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...</p>
+      </li>
+<li><a href="/uploads/a/xinwenzixun/2015/0418/1.html">锣响挂车引领时代承载未来</a>
+       <p>锣响挂车...</p>
+      </li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+  <!-- /commend -->
+  <div class="hot mt1">
+   <dl class="tbox light">
+    <dt class='light'><strong>热点内容</strong></dt>
+    <dd class='light'>
+     <ul class="c1 ico2">
+      <li><a href="/uploads/a/xinwenzixun/2015/0420/13.html">斯蒂芬斯蒂芬森大幅度释</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0418/4.html">热烈祝贺</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0418/5.html">测试测试测试</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/9.html">怎么办怎么办</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/11.html">特道德和发掘的复合接口</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/8.html">我很好我很好</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/12.html">啊大哥风格的复合时尚风</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0418/1.html">锣响挂车引领时代承载未</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/6.html">测试测试车</a></li>
+<li><a href="/uploads/a/xinwenzixun/2015/0420/10.html">哎呦不错啊</a></li>
+
+     </ul>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <!-- /pright -->
+</div>
+</div>
+<div id="links">
+		<ul>
+			<li id="add"><img src="/uploads/templets/luoxiang/images/add.png" alt="" /></li>
+			<div class="effect" style="width:520px;float:right;margin-top:10px;">
+					<div id="leftMarquee" class="leftLoop">
+					<div id="youqing">
+						<p>友情链接Link</p>
+					</div>
+						<div class="bd">
+							<ul class="picList">
+								<li>
+									<div class="pic"><a href=""><img src="/uploads/templets/luoxiang/images/images/ad1.jpg" /></a></div>
+
+								</li>
+								<li>
+									<div class="pic"><a href=""><img src="/uploads/templets/luoxiang/images/images/ad2.jpg" /></a></div>
+
+								</li>
+								<li>
+									<div class="pic"><a href=""><img src="/uploads/templets/luoxiang/images/images/ad3.jpg" /></a></div>
+				
+								</li>
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">jQuery("#leftMarquee").slide({ mainCell:".bd ul",effect:"leftMarquee",vis:3,interTime:40,autoPlay:true });</script>
+			</div>
+		</ul>						
+		</div>
+		<div id="foot">
+			<div id="cop" >
+				<p>Copyright ©2015  All Right Reserved www.luoxiangcheliang.com   版权所有:山东蒙阴锣响车辆机械有限公司  鲁ICP备12026637号  </p>
+			</div>
+		</div>
+		<div class="main-im">
+				<div id="open_im" class="open-im">&nbsp;</div>  
+				<div class="im_main" id="im_main">
+		<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=1448781109&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+			<div class="qq-container"></div>
+			<div class="qq-hover-c"><img class="img-qq" src="../uploads/templets/luoxiang/images/right_img/qq.png"></div>
+			<span> QQ在线咨询</span>
+		</a>
+		<div class="im-tel">
+			<div>售前咨询热线</div>
+			<div class="tel-num">400-9675-077</div>
+			<div>售后咨询热线</div>
+			<div class="tel-num">0539-4829829</div>
+		</div>
+		<div class="im-footer" style="position:relative">
+			<div class="weixing-container">
+				<div class="weixing-show">
+					<div class="weixing-txt">微信扫一扫<br>关注锣响汽车</div>
+					<img class="weixing-ma" src="/uploads/templets/luoxiang/images/right_img/weixing-ma.jpg">
+					<div class="weixing-sanjiao"></div>
+					<div class="weixing-sanjiao-big"></div>
+				</div>
+			</div>
+			<div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+			</div>
+<!-- /footer -->
+<script type="text/javascript" src="/uploads/templets/luoxiang/js/jquery.plugins-min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#onebyone_slider').oneByOne({
+      className:'oneByOne1',
+      easeType:'random',
+      slideShow:true,
+      delay:200,
+      slideShowDelay:4000
+    })
+  });
+</script>
+<script src="/uploads/templets/luoxiang/js/jquery.movebg.js"></script>
+<script>
+  $(function(){
+    $(".nav").movebg({width:180/*滑块的大小*/,extra:40/*额外反弹的距离*/,speed:300/*滑块移动的速度*/,rebound_speed:400/*滑块反弹的速度*/});
+  })
+</script>
+</body>
+<script language="javascript" type="text/javascript">
+var MarginLeft = 80;   //浮动层离浏览器右侧的距离
+var MarginTop = 150;     //浮动层离浏览器顶部的距离
+var Width = 120;        //浮动层宽度
+var Heigth= 45;        //浮动层高度
+
+//设置浮动层宽、高
+function Set()
+{
+    document.getElementById("FloatDIV").style.width = Width+"px";
+    document.getElementById("FloatDIV").style.height = Heigth+"px";
+}
+
+//实时设置浮动层的位置
+function Move()
+{
+    document.getElementById("FloatDIV").style.top = document.documentElement.scrollTop + MarginTop+"px";
+    document.getElementById("FloatDIV").style.left = document.documentElement.clientWidth - Width - MarginLeft+"px";
+    setTimeout("Move();",100);
+}
+
+Set();
+Move();
+</script>
+</html>

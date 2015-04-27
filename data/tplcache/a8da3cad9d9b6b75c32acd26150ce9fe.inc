@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src=".{dede:global.cfg_templeturl/}/luoxiang/images/pd_1.png" alt="" /></a><p>普通货运单车</p></li>

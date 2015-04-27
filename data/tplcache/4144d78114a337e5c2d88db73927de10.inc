@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="./templets/luoxiang/images/work1.jpg" alt="" /></a><p>异性孔冲压机</p></li>

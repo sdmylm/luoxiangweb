@@ -1,0 +1,1 @@
+<li class="pd_li"><a href="[field:typeurl/]"><img src="/uploads/templets/luoxiang/images/pd_8.png" alt="" /></a><p>集装箱骨架车</p></li>

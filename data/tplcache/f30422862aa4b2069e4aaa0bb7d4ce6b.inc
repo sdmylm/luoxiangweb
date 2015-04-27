@@ -1,0 +1,1 @@
+<li class="pd_li"><a href="[field:typeurl/]"><img src="/uploads/templets/luoxiang/images/pd_6.png" alt="" /></a></li>

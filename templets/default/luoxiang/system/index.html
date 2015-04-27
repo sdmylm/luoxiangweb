@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>计算系统</title>
+</head>
+<body>
+	<form>
+		<select name="cars" id="carss">
+			<option value="52000">鹅颈分体15款</option>
+			<option value="35000">仓栅式</option>
+			<option value="42000">铝合金</option>
+			<option value="61000">骨架车</option>
+		</select>
+		<br />
+		<input type="checkbox" name="check" value="3521"/>
+		车架
+		<br />
+		<input type="checkbox" name="check" value="4325"/>
+		牵引销
+		<br />
+		<input type="checkbox" name="check" value="7528"/>
+		边梁
+		<br />
+		<input type="checkbox" name="check" value="4534"/>
+		防水槽
+		<br />
+		<input type="checkbox" name="check" value="1455"/>
+		备胎
+		<br />
+		<input type="checkbox" name="check" value="6565"/>
+		钢圈
+		<br />
+		<input type="submit" onclick="Math_Click()" />
+	</form>
+	<script type="text/javascript">
+		function Math_Click(){
+           var rusult=0;
+           var check_array=document.getElementsByName("check");
+           for(var i=0;i<check_array.length;i++)
+           {
+               if(check_array[i].checked==true)
+               {         
+                  rusult=parseInt(rusult)+parseInt(check_array[i].value);
+               }
+           }
+           var car=document.getElementById("carss").value;
+           var sum=parseInt(rusult)+parseInt(car);
+           alert(sum+"元");
+        }
+	</script>
+</body>
+</html>

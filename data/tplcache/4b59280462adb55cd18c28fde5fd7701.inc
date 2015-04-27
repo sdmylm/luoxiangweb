@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="http://127.0.0.1/uploads/templets/luoxiang/images/work4.jpg" alt="" /></a></li>

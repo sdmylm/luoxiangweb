@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templeturl/}/luoxiang/css/style.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templeturl/}/luoxiang/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templeturl/}/luoxiang/css/kefu_style.css" />
+<link rel="icon" href="{dede:global.cfg_templeturl/}/luoxiang/images/logo.png" type="image/x-icon" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js" ></script>
+<link href="{dede:global.cfg_templeturl/}/luoxiang/css/jquery.onebyone-min.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templeturl/}/js/pic_scroll.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templeturl/}/luoxiang/js/jquery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templeturl/}/luoxiang/js/lrtk.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templeturl/}/luoxiang/js/jQuery.blockUI.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templeturl/}/luoxiang/js/jquery.SuperSlide.js"></script>
+</head>
+<body class="picboxlist">
+{dede:include filename="head.html"/}
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="ab_txt">
+				<span id="pd_show">图片展示</span>
+				<span style="margin-top:7px; margin-left:10px;"><img src="{dede:global.cfg_templeturl/}/luoxiang/images/about.png" alt="about" /><br />News and information</span>
+				<br />
+				<span id="kehu">规范管理 持续改善 制度第一 公平公正 严谨求实 团结创新。</span>
+			</div>
+	<div class="pleft">
+		<div class="listbox">
+			<ul class="e8">
+           {dede:list pagesize='12'}
+				<li>
+					<a href="[field:arcurl/]" class="pic"><img src="[field:litpic/]" alt="[field:title function='html2text(@me)'/]"/></a>
+					<a href="[field:arcurl/]" class="title">[field:title/]</a>
+					<span class="date"><small>最后更新：</small>[field:pubdate function="GetDateMK(@me)"/]</span>
+				</li>
+          {/dede:list}
+			</ul>
+		</div><!-- /listbox -->
+		<div class="dede_pages">
+			<ul class="pagelist">
+				{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+			</ul>
+		</div><!-- /pages -->
+	</div><!-- /pleft -->
+	
+	<div class="pright">
+    	<div class="">
+			<dl class="tbox">
+				<dt><strong>热点图集</strong></dt>
+				<dd>
+					<ul class="e3">
+                    {dede:arclist row='5' type='image.' orderby=click}
+						<li>
+							<a href="[field:arcurl/]" class="preview"><img src="[field:litpic/]" alt="[field:title function='html2text(@me)'/]"/></a>
+							<a href="[field:arcurl/]" class="title">[field:title/]</a>
+							<span class="intro">更新:[field:pubdate function="GetDateMK(@me)"/]</span>
+						</li>
+                     {/dede:arclist}
+
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div class="mt1">
+			<dl class="tbox">
+				<dt><strong>推荐图集</strong></dt>
+				<dd>
+					<ul class="e9">
+                    {dede:arclist row='8' type='image.commend.'}
+						<li><a href="[field:arcurl/]"><img src="[field:litpic/]" alt="[field:title function='html2text(@me)'/]"/><span class="title">[field:title/]</span></a></li>
+                    {/dede:arclist}
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div><!-- /pright -->
+</div>
+{dede:include filename="footer.html"/}
+<!-- /footer -->
+<script type="text/javascript" src="{dede:global.cfg_templeturl/}/luoxiang/js/jquery.plugins-min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#onebyone_slider').oneByOne({
+			className:'oneByOne1',
+			easeType:'random',
+			slideShow:true,
+			delay:200,
+			slideShowDelay:4000
+		})
+	});
+</script>
+<script src="{dede:global.cfg_templeturl/}/luoxiang/js/jquery.movebg.js"></script>
+<script>
+	$(function(){
+		$(".nav").movebg({width:180/*滑块的大小*/,extra:40/*额外反弹的距离*/,speed:300/*滑块移动的速度*/,rebound_speed:400/*滑块反弹的速度*/});
+	})
+</script>
+</body>
+<script language="javascript" type="text/javascript">
+var MarginLeft = 80;   //浮动层离浏览器右侧的距离
+var MarginTop = 150;     //浮动层离浏览器顶部的距离
+var Width = 120;        //浮动层宽度
+var Heigth= 45;        //浮动层高度
+
+//设置浮动层宽、高
+function Set()
+{
+    document.getElementById("FloatDIV").style.width = Width+"px";
+    document.getElementById("FloatDIV").style.height = Heigth+"px";
+}
+
+//实时设置浮动层的位置
+function Move()
+{
+    document.getElementById("FloatDIV").style.top = document.documentElement.scrollTop + MarginTop+"px";
+    document.getElementById("FloatDIV").style.left = document.documentElement.clientWidth - Width - MarginLeft+"px";
+    setTimeout("Move();",100);
+}
+
+Set();
+Move();
+</script>
+</html>

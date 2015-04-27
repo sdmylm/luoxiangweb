@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="./templets/luoxiang/images/work2.jpg" alt="" /></a><p>盘底组对工位</p></li>

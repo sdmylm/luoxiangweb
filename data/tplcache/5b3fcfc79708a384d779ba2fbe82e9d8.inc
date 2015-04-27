@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]"><p>进入详情&gt;&gt;</p></a>

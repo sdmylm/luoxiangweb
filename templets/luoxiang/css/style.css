@@ -1,0 +1,347 @@
+@font-face {font-family:myFont; src: url(".{dede:global.cfg_templets_skin/}/luoxiang/font/myfont.TTF");} 
+
+#control
+{
+	width:100%;
+}
+#head{
+	height:80px;
+	width: 1100px;;
+	margin:0 auto;
+	background-color: #255 255 255;
+
+}
+#he_info{
+	float:right;
+	margin-top: 10px;
+	margin-right: 75px;
+}
+.searchinput{
+	border-right-width: 0px;
+	padding-left: 3px;
+	width: 168px;
+	font-family: arial;
+	float: left;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	color: #636365;
+	margin-left: 4px;
+	font-size: 8pt;
+	vertical-align: middle;
+	border-left-width: 0px;
+	margin-right: 3px;
+}
+.tab_search{
+	border-bottom: #cccccc 1px solid;
+	border-left: #cccccc 1px solid;
+	height: 25px;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+
+}
+.searchaction{
+	width: 21px;
+	float: left;
+	height: 17px;
+}
+#logo{
+	float:left;
+	width: 600px;
+	height: 60px;
+	max-width: 600px;
+	margin-top:10px;
+	margin-left: 45px;
+}
+#logo img{
+	height: 60px;
+	width: 500px;
+	display: block;
+	float: left;
+}
+#menu{
+	float:left;
+	width: 100%;
+}
+/*-- nav --*/
+.wraper{width: 100%;background:#f5f5f5;}
+.nav{ position:relative; width:1100px; height:40px;  overflow:hidden;margin: 0 auto; }
+.nav-item{ position:relative; float:left; width:180px; height:60px; line-height:40px; text-align:center; font-size:17px; z-index:1}
+.nav-item a{ display:block; height:40px; color:#000;}
+.nav-item a:hover{ color:#fff}
+.move-bg{ display:none;position:absolute;left:0;top:0; width:180px; height:60px; background:#171c61; z-index:0}
+#line{
+	height: 3px;
+	width: 100%;
+	background-color: red;
+}
+#banner{
+	height: 392px;
+	width: 100%;
+	background-image: url(../images/banner3.png);
+	-moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ban_con
+{
+	width: 1100px;;
+	margin: 0 auto;
+	padding-top:60px;
+	padding-left: 80px;
+}
+#ban1
+{
+	font-family: '微软雅黑';
+	font-size: 45px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#ban2
+{
+	font-family: '微软雅黑';
+	color: #97d74b;
+	font-size: 35px;
+	font-weight: bold;
+}
+#ban3
+{
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 5px;
+}
+#ban4{
+	color: #ffffff;
+	font-size: 15px;
+	margin-top:25px;
+	line-height: 25px;
+}
+#about{
+	height: 800px;
+	width: 1100px;;
+	margin:0 auto;
+	background-color: #255 255 255;
+	overflow:hidden
+}
+.ab_txt{
+	width: 420px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-left: 80px;
+}
+.ab_txt span{
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}
+#about_me{
+	font-size: 36px;
+	font-family: 'Microsoft YaHei';
+	font-weight:normal;
+}
+#kehu{
+	font-size: 13px;
+	font-weight:normal;
+	color:gray;
+	margin-bottom: 15px;
+	display: block;
+}
+#video{
+	height: 500px;
+	width: 800px;
+	margin: 0 auto;
+}
+#about p
+{
+	margin-top: 40px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+#case{
+	height: 751px;
+	width: 100%;
+	background-image: url(../images/bgp.jpg);
+	overflow: hidden;
+}
+#pd_show{
+	font-size: 36px;
+	font-family: 'Microsoft YaHei';
+	font-weight:normal;
+}
+#case span
+{
+	color: #D0E7FB;
+}
+#pd_list{
+	width: 1100px;;
+	height: 500px;
+	margin: 0 auto;
+	margin-top:40px;
+}
+#pd_list li{
+	width: 240px;
+	height: 200px;
+	float: left;
+	background-color: blue;
+	margin-right:25px;
+	border:5px solid #f0f0f0;
+}
+#pd_list img{
+	width: 240px;
+	height: 200px;
+}
+#pd_list p{
+	font-size: 18px;
+	color:white;
+	height: 30px;
+	width: 115px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 10px;
+}
+.pd_li{
+	margin-top:50px;
+}
+.look{
+	height: 50px;
+	width: 140px;
+	border: 2px solid #97d74b;
+	margin: 0 auto;
+	margin-top:20px;
+}
+.look:hover{
+	border: 2px solid orange;
+}
+.look p{
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+	color:#97d74b; 
+	font-weight: bold;
+}
+.look p:hover{
+	color: orange;
+}
+#news{
+	height: 653px;
+	width: 1100px;;
+	margin:0 auto;
+	background-color: #255 255 255;
+	overflow: hidden;
+}
+#new_lise{
+	
+	height: 50px;
+	width: 610px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+#new_lise li{
+	float: left;
+	height: 40px;
+	width: 200px;
+	border: 1px solid gray;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+#new_lise li:hover{
+	background-color: #171c61;
+}
+#new_list li a:hover{
+	color:#fff;
+}
+#new_list2{
+	margin-top:40px;
+	height: 300px;
+}
+#new_list2 ul{
+	height: 300px;
+}
+#new_list2 li
+{
+	float: left;
+	margin-left: 0px;
+}
+.title{
+	margin-top: 10px;
+}
+.articleid{
+	font-size: 16px;
+
+}
+.articleid:hover{
+	color: #0064d4;
+}
+#Product{
+	height: 577px;
+	width: 100%;
+	background-image: url(../images/bgp.jpg);
+	overflow: hidden;
+}
+#links{
+	height: 170px;
+	width: 1100px;;
+	margin: 0 auto;
+	background-color: #255 255 255;
+	overflow: hidden;
+}
+#add{
+	float: left;
+	margin-top: 15px;
+	width: 550px;
+	height: 120px;
+}
+#add img{
+	width: 480px;
+	height: 130px;
+}
+#youqing{
+	float: left;
+	margin-left: 10px;
+}
+#foot{
+	height: 45px;
+	width: 100%;
+	background-color:black;
+	overflow: hidden;
+}
+#cop{
+	width: 700px;
+	height: 20px;
+	margin: 0 auto;
+	margin-top:5px;
+}
+#foot p{
+}
+/*-------------new_list--------------*/
+#new_list
+{
+	width: 1270px;
+	height: 800px;
+}
+
+
+        /* 通用图片列表_普通式 */ 
+        .picList li{ width:126px;  } 
+        .picList .pic{ text-align:center; line-height:0px;  } 
+        .picList .pic img{ width:120px; height:90px; padding:2px; border:1px solid #ccc; } 
+        .picList .pic a:hover img{ border-color:#f00;  } 
+        .picList .title{ line-height:24px;   } 
+         
+        /* 多个左滚动 - 公用类 */ 
+        .leftLoop{ overflow:hidden; position:relative; } 
+        .leftLoop .hd{ overflow:hidden;  height:30px; background:#f4f4f4;  } 
+        .leftLoop .hd .prev,.leftLoop .hd .next{ display:block;  width:5px; height:9px; line-height:10px; float:right; margin-right:10px; margin-top:10px;  overflow:hidden;   
+             cursor:pointer; background:url("demoEffect/images/icoLeft.gif") no-repeat;} 
+        .leftLoop .hd .next{ background:url("demoEffect/images/icoRight.gif") no-repeat;  } 
+        .leftLoop .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px;  } 
+        .leftLoop .hd ul li{ position:relative; _display:inline; float:left;  width:10px; height:10px; overflow:hidden; background:#ccc; margin-right:10px; text-indent:-999px; cursor:pointer; 
+            -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(PIE.htc);} 
+        .leftLoop .hd ul li.on{ background:#f00;  } 
+        .leftLoop .bd{ padding:10px;   } 
+        .leftLoop .bd ul{ overflow:hidden; zoom:1; } 
+        .leftLoop .bd ul li{ margin:0 10px; text-align:center; float:left;display:_inline;  } 
+

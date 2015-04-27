@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src=".{dede:global.cfg_templeturl/}/luoxiang/images/work4.jpg" alt="" /></a><p>瓦楞版冲压机</p></li>

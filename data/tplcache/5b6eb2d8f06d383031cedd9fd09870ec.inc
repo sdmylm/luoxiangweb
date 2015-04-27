@@ -1,0 +1,1 @@
+<li class="pd_li"><a href="[field:typeurl/]"><img src="./templets/luoxiang/images/pd_7.png" alt="" /></a><p>铝合金半挂车</p></li>

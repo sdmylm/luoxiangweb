@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]">行业资讯</a></li>

@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="./templets/luoxiang/images/work3.jpg" alt="" /></a><p>纵梁组装工位</p></li>

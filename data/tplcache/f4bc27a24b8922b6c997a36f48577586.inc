@@ -1,0 +1,1 @@
+<li class="pd_li"><a href="[field:typeurl/]"><img src="[field:global.cfg_templets_skin/]/luoxiang/images/pd_5.png" alt="" /></a><p>自卸式半挂车</p></li>

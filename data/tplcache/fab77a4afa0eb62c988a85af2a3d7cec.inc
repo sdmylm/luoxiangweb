@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="{dede:global.cfg_templets_skin/}/luoxiang/images/pd_4.png" alt="" /></a><p>鹅颈分体花栏</p></li>
